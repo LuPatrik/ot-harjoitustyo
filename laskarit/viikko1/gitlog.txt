@@ -1,0 +1,140 @@
+lpatrik@melkki:~/ot_viikko1/tiedostoja$ git log --stat | cat
+commit a2e1b1360c46744bc5395d3f373d31cb64e6633a
+Author: Luoto Patrik N <lpatrik@melkki.cs.helsinki.fi>
+Date:   Sun Mar 19 16:51:10 2023 +0200
+
+    file1 poistettu
+
+ tiedostoja/file1 | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit b575f4498af25ec5a4d1b40fb71c1279964de2c7
+Author: Luoto Patrik N <lpatrik@melkki.cs.helsinki.fi>
+Date:   Sun Mar 19 16:50:48 2023 +0200
+
+    file2 uudelleennimetty
+
+ tiedostoja/{file2 => file22} | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 08743b81219f7c303a2e49c456f42aa4a547bbc0
+Author: Luoto Patrik N <lpatrik@melkki.cs.helsinki.fi>
+Date:   Sun Mar 19 16:39:13 2023 +0200
+
+    tiedostoja hakemisto ja file 1 2 3 lisätty
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit e7d818d94605c7898c282e3576e4136cac8c0162
+Author: Luoto Patrik N <lpatrik@melkki.cs.helsinki.fi>
+Date:   Sat Mar 18 22:53:47 2023 +0200
+
+    ekaa ja kolmatta edioitu
+
+ eka.txt    | 2 +-
+ kolmas.txt | 3 +--
+ 2 files changed, 2 insertions(+), 3 deletions(-)
+
+commit 380af0247aa3f809afcf25717a63873cf5e8eb2a
+Author: Luoto Patrik N <lpatrik@melkki.cs.helsinki.fi>
+Date:   Sat Mar 18 22:48:38 2023 +0200
+
+    tiedosto.txt muutettu eka.txt:si
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 531638b37b8040e5dade61e993d0467852a9cf78
+Author: Luoto Patrik N <lpatrik@melkki.cs.helsinki.fi>
+Date:   Sat Mar 18 22:47:18 2023 +0200
+
+    toinen.txt poistettu uudelleen teht8
+
+ toinen.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit acb7d4c8d660eff3ea79786b0f1438ea34292351
+Author: Luoto Patrik N <lpatrik@melkki.cs.helsinki.fi>
+Date:   Sat Mar 18 22:46:32 2023 +0200
+
+    toka lisätty uudelleen teht8 varten
+
+ toinen.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit de8628fd1a0f36ab19dacb9e04260570cddd3115
+Author: Luoto Patrik N <lpatrik@melkki.cs.helsinki.fi>
+Date:   Sat Mar 18 22:44:15 2023 +0200
+
+    toinen.txt poistettu
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit f7ac6fc243f3e49518e1f7ff8c536392953ec182
+Author: Luoto Patrik N <lpatrik@melkki.cs.helsinki.fi>
+Date:   Fri Mar 17 18:14:03 2023 +0200
+
+    tiedosto.txt editoitu taas kerran jälleen
+
+ tiedosto.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 143933d5be5f1c95700c274a09e86618cb50dec3
+Author: Luoto Patrik N <lpatrik@melkki.cs.helsinki.fi>
+Date:   Fri Mar 17 18:10:25 2023 +0200
+
+    tiedosto.txt kopioitu tekstiä
+
+ tiedosto.txt | 11 ++++++++++-
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+
+commit a7cb8b7633aaa807510a06f0de97f6f5e1d6497e
+Author: Luoto Patrik N <lpatrik@melkki.cs.helsinki.fi>
+Date:   Fri Mar 17 18:05:05 2023 +0200
+
+    kolmas lisätty
+
+ kolmasv2.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit f2ef297932e204108a5e7d29abfb5bba3552956f
+Author: Luoto Patrik N <lpatrik@melkki.cs.helsinki.fi>
+Date:   Fri Mar 17 17:55:11 2023 +0200
+
+    stuff hakemisto lisätty
+
+ stuff/stuff.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 25a05731aae2d6e2bb6191fdea2586743298c139
+Author: Luoto Patrik N <lpatrik@melkki.cs.helsinki.fi>
+Date:   Fri Mar 17 17:53:01 2023 +0200
+
+    toka ja kolmas
+
+ kolmas.txt | 3 +++
+ toinen.txt | 1 +
+ 2 files changed, 4 insertions(+)
+
+commit 44a2891feef10dcbcb51603ce0da91ab7c9b929d
+Author: Luoto Patrik N <lpatrik@melkki.cs.helsinki.fi>
+Date:   Fri Mar 17 17:47:44 2023 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit a15168e8de69de4bf72747d366947bea5b0d19f1
+Author: Luoto Patrik N <lpatrik@melkki.cs.helsinki.fi>
+Date:   Fri Mar 17 17:44:33 2023 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
