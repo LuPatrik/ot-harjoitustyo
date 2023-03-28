@@ -9,6 +9,8 @@ guacamole fan 118
 
 [vaatimusmaarittely.md](https://github.com/MegafoS/ot-harjoitustyo/blob/main/dokumentaatio/vaatimusmaarittely.md)
 
+[tyoaikakirjanpito.md](https://github.com/MegafoS/ot-harjoitustyo/blob/main/dokumentaatio/tyoaikakirjanpito.md)
+
 
 tehtävä 16 muutos
 
