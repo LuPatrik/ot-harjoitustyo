@@ -7,6 +7,9 @@ guacamole fan 118
 
 [komentorivi.txt](https://github.com/MegafoS/ot-harjoitustyo/blob/main/laskarit/viikko1/komentorivi.txt)
 
+[vaatimusmaarittely.md](https://github.com/MegafoS/ot-harjoitustyo/blob/main/dokumentaatio/vaatimusmaarittely.md)
+
+
 tehtävä 16 muutos
 
 tehtävä 17 muutos
