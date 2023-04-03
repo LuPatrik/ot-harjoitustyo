@@ -13,6 +13,15 @@ class Spaceship:
         self.speed = speed
         self.current_shot_cooldown = 0
         self.shot_cooldown = 350
+        self.damage_immunity = 0
+
+    def hit(self, damage):
+        self.health -= damage
+        self.damage_immunity = 20
+
+    def damage_immunity_update(self):
+        if self.damage_immunity > 0:
+            self.damage_immunity -= 1
 
 class Player_ship(Spaceship):
     def __init__(self, x, y, speed, health):
@@ -28,7 +37,6 @@ class Player_ship(Spaceship):
         screen.blit(self.image, (self.x, self.y))
 
 class Enemy_ship(Spaceship):
-    
     def __init__(self, x, y, speed, health):
         super().__init__(x, y, speed, health)
         self.image = pygame.image.load(os.path.join("assets", "alien_striker.png"))
@@ -60,9 +68,14 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
+        player_ship.damage_immunity_update()
 
         if pygame.mask.from_surface(player_ship.image).overlap(pygame.mask.from_surface(enemy_ship.image), (int(enemy_ship.x - player_ship.x), int(enemy_ship.y - player_ship.y))):
-            print("hit!!")
+            if player_ship.damage_immunity == 0:
+                player_ship.hit(10)
+                print("hit!!", player_ship.health)
+                if player_ship.health == 0:
+                    running = False
         
 
         
