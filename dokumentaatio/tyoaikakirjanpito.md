@@ -6,11 +6,11 @@
 | 30.3  | 2    | pelaajan liikkuminen ja peliruutu lisätty |
 | 1.4   | 2    | törmäyksen haivatseminen ja kuvat lisätty |
 | 3.4   | 1    | törmäys vahingoittaa pelaajaa |
+| 6.4   | 1    | pelaaja pystyy ampumaan |
 |       |      | |
 |       |      | |
 |       |      | |
 |       |      | |
 |       |      | |
 |       |      | |
-|       |      | |
-| yht   | 6    | | 
+| yht   | 7    | | 
