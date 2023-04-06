@@ -9,10 +9,11 @@ class Spaceship:
     def __init__(self, x, y, speed, health):
         self.x = x
         self.y = y
+        self.base_speed = speed
         self.health = health
         self.speed = speed
         self.current_shot_cooldown = 0
-        self.shot_cooldown = 350
+        self.shot_cooldown = 200
         self.damage_immunity = 0
 
     def hit(self, damage):
@@ -35,6 +36,27 @@ class Player_ship(Spaceship):
     
     def draw(self, screen):
         screen.blit(self.image, (self.x, self.y))
+    
+    def shoot(self):
+        current_time = pygame.time.get_ticks()
+        if current_time - self.current_shot_cooldown > self.shot_cooldown:
+            self.current_shot_cooldown = current_time
+            self.new_bullet = Bullet(self.x + self.image.get_width()/2 -5, self.y, 12)
+            self.bullets.append(self.new_bullet)
+class Bullet:
+    def __init__(self, x, y, speed):
+        self.x = x
+        self.y = y
+        self.speed = speed
+        self.image = pygame.image.load(os.path.join("assets", "bullet.png"))
+        self.image = pygame.transform.scale(self.image, (10, 20))
+        self.mask = pygame.mask.from_surface(self.image)
+
+    def draw(self, screen):
+        screen.blit(self.image, (self.x, self.y))
+
+    def update(self):
+        self.y -= self.speed
 
 class Enemy_ship(Spaceship):
     def __init__(self, x, y, speed, health):
@@ -54,10 +76,12 @@ def main():
 
 
     player_ship = Player_ship((screen_size[0]-52)/2, screen_size[1]-100, 4, 100)
-    enemy_ship = Enemy_ship(((screen_size[0]-52)+300)/2, screen_size[1]-100, 4, 100)
+    enemy_ship = Enemy_ship(((screen_size[0]-52)+300)/2, 50, 4, 100)
     def refresh_screen():
         pygame.display.update()
         screen.fill((0,0,0))
+        for bullet in player_ship.bullets:
+            bullet.draw(screen)
         enemy_ship.draw(screen)
         player_ship.draw(screen)
 
@@ -76,7 +100,6 @@ def main():
                 print("hit!!", player_ship.health)
                 if player_ship.health == 0:
                     running = False
-        
 
         
         if pygame.key.get_pressed()[pygame.K_UP] and player_ship.y + player_ship.speed > 0:
@@ -87,7 +110,15 @@ def main():
             player_ship.x -= player_ship.speed
         if pygame.key.get_pressed()[pygame.K_RIGHT] and player_ship.x + player_ship.speed + 100 < screen_size[0]:
             player_ship.x += player_ship.speed
+
+
+        if pygame.key.get_pressed()[pygame.K_x] or pygame.key.get_pressed()[pygame.K_SPACE]:
+            player_ship.shoot()
         if pygame.key.get_pressed()[pygame.K_ESCAPE]:
             running = False
+        for bullet in player_ship.bullets:
+            bullet.update()
+            
+        player_ship.bullets = [bullet for bullet in player_ship.bullets if bullet.y > 0]
 
 main()
