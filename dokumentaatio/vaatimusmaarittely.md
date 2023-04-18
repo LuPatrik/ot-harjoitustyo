@@ -8,12 +8,12 @@ Pelissä on tarkoitus ampua vihollisalukset, ennen kuin ne pääsevät ruudun al
 
 Perusversion pelin toiminnallisuus:
 
-- Pelaaja voi liikuttaa alusta oikean ja vasemman suunnan lisäksi myös ylös ja alas
+- Pelaaja voi liikuttaa alusta oikean ja vasemman suunnan lisäksi myös ylös ja alas (tehty)
 - Pisteitä kerätään tuhoamalla vihollisaluksia
-- Pelaaja menettää elämäpisteitä, kun pelaajan alukseen osuu vihollisen ammus tai vihollisalus
+- Pelaaja menettää elämäpisteitä, kun pelaajan alukseen osuu vihollisen ammus tai vihollisalus (tehty)
 - Pelaajaa rangaistaan, kun vihollisalus pääsee alalaitaan
 - Pelin edetessä vihollisaluksia esiintyy koko ajan enemmän
-- Peli päättyy, kun pelaaja menettää kaikki elämäpisteet
+- Peli päättyy, kun pelaaja menettää kaikki elämäpisteet (tehty)
 - Parhaimmat pelaajapisteet tallennetaan tiedostoon
 - Pelissä on toimiva alkuvalikko, josta voi aloittaa pelin tai katsoa parhaimpia pelaajapisteitä
 - Pelin voi pysäyttää kesken pelisession
