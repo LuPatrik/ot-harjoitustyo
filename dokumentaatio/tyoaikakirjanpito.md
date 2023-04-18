@@ -10,7 +10,7 @@
 | 17.4  | 0.5  | vihollinen ottaa vahinkoa pelaajan ammuksista |
 |       | 0.5  | ammukset katoavat, kun ne osuvat viholliseen |
 | 18.4  | 4    | koodia hajautettu useammalle tiedostolle, lisäksi paranneltu koodia pylintin mukaan |
+|       | 0.5  | yksinkertainen turbo lisätty |
 |       |      | |
 |       |      | |
-|       |      | |
-| yht   | 12   | | 
+| yht   | 12.5 | | 
