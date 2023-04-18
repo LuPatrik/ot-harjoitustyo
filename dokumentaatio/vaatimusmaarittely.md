@@ -28,6 +28,6 @@ Jatkokehitysideoita:
 	- bonus, joka antaa lisää elämäpisteitä
 	- bonus, joka antaa hetkellisen suojan kaikkeen vahinkoon
 	- bonus, joka tuhoaa kaikki vihollisalukset, jotka ovat lähellä pelaajan alusta
-- Turbo moodi, jossa pelaajan alus liikkuu huomattavasti nopeammin, mutta ei pysty ampumaan
+- Turbo moodi, jossa pelaajan alus liikkuu huomattavasti nopeammin, mutta ei pysty ampumaan (tehty)
 - Erilaisia pelattavia aluksia, joilla on erilaisia erikoiskykyjä
 - Taustamusiikki, sekä yleisesti peliäänet
