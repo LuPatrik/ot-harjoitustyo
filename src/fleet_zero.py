@@ -45,10 +45,17 @@ def main():
         if (pygame.key.get_pressed()[pygame.K_RIGHT] and
             player_ship.x_coord + player_ship.speed + 100 < screen_size[0]):
             player_ship.x_coord += player_ship.speed
-        if pygame.key.get_pressed()[pygame.K_x] or pygame.key.get_pressed()[pygame.K_SPACE]:
+        if ((pygame.key.get_pressed()[pygame.K_x] or
+            pygame.key.get_pressed()[pygame.K_SPACE]) and not turbo):
             player_ship.shoot()
         if pygame.key.get_pressed()[pygame.K_ESCAPE]:
             running = False
+        if pygame.key.get_pressed()[pygame.K_LSHIFT]:
+            player_ship.speed = 8
+            turbo = True
+        else:
+            player_ship.speed = 4
+            turbo = False
         for bullet in player_ship.bullets:
             if (pygame.mask.from_surface(bullet.image).
                 overlap(pygame.mask.from_surface(enemy_ship.image),
