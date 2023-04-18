@@ -1,6 +1,6 @@
 # Fleet Zero
 
-Fleet Zero on Space Invadersin tyylinen videopeli. Tällä hetkellä peli on vielä työn alla, mutta pelaajan aluksen liikkuminen, ampuminen ja törmäyshavainto toimivat.
+Fleet Zero on Space Invadersin tyylinen videopeli. Tällä hetkellä peli on vielä työn alla, mutta pelaajan aluksen liikkuminen, turbo, ampuminen ja törmäyshavainto toimivat.
 
 **HUOM:** Fleet Zero vaatii vähintään Python version `3.8`. Peliä ei ole testattu vanhemmilla versioilla.
 
