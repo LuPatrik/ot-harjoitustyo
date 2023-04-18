@@ -11,3 +11,4 @@
 - Luodit, jotka törmäävät viholliseen katoavat
 - Koodia ollaan hajautettu eri tiedoistoihin
 - Koodia on paranneltu pylintin mukaan
+- Yksinkertainen turbo lisätty
