@@ -11,6 +11,10 @@
 |       | 0.5  | ammukset katoavat, kun ne osuvat viholliseen |
 | 18.4  | 4    | koodia hajautettu useammalle tiedostolle, lisäksi paranneltu koodia pylintin mukaan |
 |       | 0.5  | yksinkertainen turbo lisätty |
+| 25.4  | 5    | ammukset pysähtyvät vihollisiin, vihollisalukset tuhoutuvat, pelaaja saa pisteitä kun vihollisalus tuhotaan ja tasot lisätty |
+|       |      | |
+|       |      | |
+|       |      | |
 |       |      | |
 |       |      | |
 | yht   | 12.5 | | 
