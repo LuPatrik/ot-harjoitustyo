@@ -14,6 +14,8 @@ Fleet Zero on Space Invadersin tyylinen videopeli. Tällä hetkellä peli on vie
 
 [arkkitehtuuri.md](https://github.com/MegafoS/ot-harjoitustyo/blob/main/dokumentaatio/arkkitehtuuri.md)
 
+[release 1](https://github.com/MegafoS/ot-harjoitustyo/releases/tag/viikko5)
+
 ## Komennot
 Lista komennoista, joita voidaan suorittaa
 
