@@ -8,6 +8,7 @@ class EnemyShip(Spaceship):
         self.image = pygame.image.load(image_location)
         self.image = pygame.transform.scale(self.image, (100,100))
         self.mask = pygame.mask.from_surface(self.image)
+        self.enemies = []
     def draw(self, screen):
         screen.blit(self.image, (self.x_coord, self.y_coord))
     def move(self):

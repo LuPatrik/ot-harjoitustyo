@@ -11,6 +11,7 @@ class PlayerShip(Spaceship):
         self.mask = pygame.mask.from_surface(self.image)
         self.mask = pygame.mask.from_surface(self.image)
         self.new_bullet = Bullet(self.x_coord + self.image.get_width()/2 -5, self.y_coord, 12)
+        self.score = 0
     def draw(self, screen):
         screen.blit(self.image, (self.x_coord, self.y_coord))
     def shoot(self):
@@ -19,3 +20,10 @@ class PlayerShip(Spaceship):
             self.current_shot_cooldown = current_time
             self.new_bullet = Bullet(self.x_coord + self.image.get_width()/2 -5, self.y_coord, 12)
             self.bullets.append(self.new_bullet)
+    def enemy_destroyed(self, score):
+        self.score += score
+    def damage_immunity_update(self):
+        if self.damage_immunity > 0:
+            self.damage_immunity -= 1
+    def enemy_destroyed(self, points):
+        self.score += points
