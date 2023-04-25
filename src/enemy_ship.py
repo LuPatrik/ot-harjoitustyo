@@ -14,7 +14,7 @@ class EnemyShip(Spaceship):
     def move(self):
         self.y_coord += self.speed
     def spawn_enemy(self):
-        x_coord = random.randint(600, 800 - 100)
+        x_coord = random.randint(0, 700)
         y_coord = random.randint(-800, -100)
         speed = 1
         health = 100
