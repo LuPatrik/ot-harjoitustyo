@@ -13,6 +13,11 @@ poetry run invoke start
 ```
 Käynnistäminen terminaalin kauttaa vaatii myös poetryn. Vaihtoehtoisesti voit purkaa tiedoston, avata src kansion ja käynnistää pelin fleet_zero.py tiedoston kautta.
 
+## Näppäimet:
+Nuolinäppäimet: Liikkuminen
+X tai välilyönti: Ampuminen
+LShift: Turbo
+
 ## Dokumentaatio
 
 [vaatimusmaarittely.md](https://github.com/MegafoS/ot-harjoitustyo/blob/main/dokumentaatio/vaatimusmaarittely.md)
