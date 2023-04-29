@@ -44,7 +44,7 @@ def main():
                     print("hit!!", player_ship.health)
                 if player_ship.health == 0:
                     running = False
-        player_movement.player_movement(player_ship)
+        player_movement.player_movement(None,player_ship)
         if pygame.key.get_pressed()[pygame.K_ESCAPE]:
             running = False
         for bullet in player_ship.bullets:
