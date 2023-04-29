@@ -1,6 +1,7 @@
 import pygame
 from player_ship import PlayerShip
 from enemy_ship import EnemyShip
+from player_movement import PlayerMovement
 screen_size = (800, 800)
 screen = pygame.display.set_mode(screen_size)
 pygame.display.set_caption("Fleet Zero")
@@ -8,10 +9,10 @@ def main():
     fps =  60
     clock = pygame.time.Clock()
     running = True
-    turbo = False
     player_ship = PlayerShip((screen_size[0]-52)/2, screen_size[1]-100, 4, 100)
     level = 1
     enemy_ship = EnemyShip(0, 0, 0, 0)
+    player_movement = PlayerMovement
     def start_new_level():
         print("Current level: ", level)
         for _ in range(level+4):
@@ -43,28 +44,9 @@ def main():
                     print("hit!!", player_ship.health)
                 if player_ship.health == 0:
                     running = False
-        if pygame.key.get_pressed()[pygame.K_UP] and player_ship.y_coord + player_ship.speed > 0:
-            player_ship.y_coord -= player_ship.speed
-        if (pygame.key.get_pressed()[pygame.K_DOWN] and player_ship.y_coord
-            + player_ship.speed + 100 < screen_size[1]):
-            player_ship.y_coord += player_ship.speed
-        if (pygame.key.get_pressed()[pygame.K_LEFT] and
-            player_ship.x_coord - player_ship.speed > 0):
-            player_ship.x_coord -= player_ship.speed
-        if (pygame.key.get_pressed()[pygame.K_RIGHT] and
-            player_ship.x_coord + player_ship.speed + 100 < screen_size[0]):
-            player_ship.x_coord += player_ship.speed
-        if ((pygame.key.get_pressed()[pygame.K_x] or
-            pygame.key.get_pressed()[pygame.K_SPACE]) and not turbo):
-            player_ship.shoot()
+        player_movement.player_movement(player_ship)
         if pygame.key.get_pressed()[pygame.K_ESCAPE]:
             running = False
-        if pygame.key.get_pressed()[pygame.K_LSHIFT]:
-            player_ship.speed = 8
-            turbo = True
-        else:
-            player_ship.speed = 4
-            turbo = False
         for bullet in player_ship.bullets:
             enemy_hit = False
             for enemy in enemy_ship.enemies:
