@@ -15,6 +15,6 @@
 | 29.4  | 1    | pelaajan liikkuminen siirretty omaan tiedostoonsa |
 | 2.5   | 3    | luokkia ja funktioita siirretty uusiin tiedostoihin |
 |       | 2    | pelaajalle lisätty lisäelämät, pelaaja menettää lisäelämiä, kun vihollisalus pääsee alalaitaan |
+|       | 1    | pylint korjauksia ja docstring merkintöjä |
 |       |      | |
-|       |      | |
-| yht   | 23.5 | | 
+| yht   | 24.5 | | 
