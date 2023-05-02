@@ -26,6 +26,8 @@ Peli alkaa suoraan kun se on käynnistetty.
 
 Tässä ovat kaikki näppäimet joita voit pelatessa käyttää:
 
+Pelin lopetus: ESC
+
 Liikkuminen: Nuolinäppäimet
 
 Ampuminen: X / Välilyönti (Turbon täytyy olla pois päältä, jotta ampuminen on mahdollista!)
