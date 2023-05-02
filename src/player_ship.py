@@ -10,6 +10,7 @@ class PlayerShip(Spaceship):
         self.bullet = Bullet(self.x_coord + self.image.get_width()/2 -5, self.y_coord, 12)
         self.score = 0
         self.bullets = []
+        self.lives = 3
     def draw(self, screen):
         screen.blit(self.image, (self.x_coord, self.y_coord))
     def shoot(self):
