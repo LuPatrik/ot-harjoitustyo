@@ -33,4 +33,4 @@ Ampuminen: X / Välilyönti
 Turbo: Vasen shift
 
 Osuminen vihollisaluksiin vahingoittaa sinua. Jos vihollisalus pääsee ohitsesi, menetät lisäelämän.
-Kerää mahdollisimman monta pistettä tuhoamalla vihollisaluksia ennen kuin menetät kaikki lisäelämät!
+Kerää mahdollisimman paljon pisteitä tuhoamalla vihollisaluksia ennen kuin menetät kaikki lisäelämät!
