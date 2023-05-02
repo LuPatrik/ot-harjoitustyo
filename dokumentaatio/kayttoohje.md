@@ -32,5 +32,5 @@ Ampuminen: X / Välilyönti
 
 Turbo: Vasen shift
 
-Osuminen vihollisaluksiin vahingoittaa sinua. Jos vihollisalus pääsee ohitsesi, menetät lisäelämän.
+Osuminen vihollisaluksiin vahingoittaa sinua. Jos vihollisalus pääsee ohitsesi, menetät lisäelämän. Peli vaikeutuu jatkuvasti, ja vihollisten määrä kasvaa tasojen edetessä.
 Kerää mahdollisimman paljon pisteitä tuhoamalla vihollisaluksia ennen kuin menetät kaikki lisäelämät!
