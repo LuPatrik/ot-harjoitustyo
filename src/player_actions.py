@@ -1,12 +1,12 @@
 import pygame
 from player_ship import PlayerShip
-class PlayerMovement(PlayerShip):
+class PlayerActions(PlayerShip):
     def __init__(self, x_coord, y_coord, speed, health):
         super().__init__(x_coord, y_coord, speed, health)
         self.x_coord=x_coord
         self.y_coord=y_coord
         self.speed=speed
-    def player_movement(self, player_ship):
+    def player_actions(self, player_ship):
         screen_size = (800,800)
         turbo = False
         if pygame.key.get_pressed()[pygame.K_LSHIFT]:
