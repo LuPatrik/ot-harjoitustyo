@@ -2,14 +2,6 @@ class Spaceship:
     """Luokka joka määrittää alusten perustiedot. Pelaajan aluksen ja vihollisalusten 
     luokat perivät tiedot tältä luokalta."""
     def __init__(self, x_coord, y_coord, speed, health):
-        self.x_coord = x_coord
-        self.y_coord = y_coord
-        self.base_speed = speed
-        self.health = health
-        self.speed = speed
-        self.current_shot_cooldown = 0
-        self.shot_cooldown = 200
-        self.damage_immunity = 0
         """Luokan konstruktori.
             Args:
                 x_coord: Määrittää aluksen sijainnin x akselilla.
@@ -20,6 +12,14 @@ class Spaceship:
             Näiden lisäksi konstruktori asettaa aluksen ampumisnopeuden,
             tämän hetkisen vahinkoimmuniteetin.
             """
+        self.x_coord = x_coord
+        self.y_coord = y_coord
+        self.base_speed = speed
+        self.health = health
+        self.speed = speed
+        self.current_shot_cooldown = 0
+        self.shot_cooldown = 200
+        self.damage_immunity = 0
     def hit(self, damage):
         """Alus ottaa vahinkoa hit funktiolla.
             Args:
