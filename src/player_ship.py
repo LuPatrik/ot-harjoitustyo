@@ -21,3 +21,5 @@ class PlayerShip(Spaceship):
             self.bullets.append(new_bullet)
     def enemy_destroyed(self, score):
         self.score += score
+    def bullet_list_updater(self):
+        self.bullets = [bullet for bullet in self.bullets if bullet.y_coord > -20]

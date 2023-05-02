@@ -3,3 +3,4 @@ class GameValues:
         self.screen_size = (800,800)
         self.fps = 60
         self.name = "Fleet Zero"
+        self.level = 1

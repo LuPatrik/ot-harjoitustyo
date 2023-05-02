@@ -20,3 +20,6 @@ class EnemyShip(Spaceship):
         health = 100
         new_enemy_ship = EnemyShip(x_coord, y_coord, speed, health)
         self.enemies.append(new_enemy_ship)
+    def enemies_advance(self):
+        for enemy in self.enemies:
+            enemy.move()
