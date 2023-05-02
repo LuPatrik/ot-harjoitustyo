@@ -2,8 +2,8 @@ import unittest
 import pygame
 import fleet_zero
 from collision_detection import CollisionDetection
-from fleet_zero import PlayerShip
-from fleet_zero import EnemyShip
+from player_ship import PlayerShip
+from enemy_ship import EnemyShip
 from player_actions import PlayerActions
 from screen_refresh import refresh_screen
 from bullet import Bullet

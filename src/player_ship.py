@@ -29,10 +29,12 @@ class PlayerShip(Spaceship):
             """
         screen.blit(self.image, (self.x_coord, self.y_coord))
     def shoot(self):
-        """Funktio, joka hoitaa pelaajan ampumisen. Ottaa nykyisen ajan muistiin. Miinustaa nykyisestä
-        ajasta tämän hetkisen ampumisen viilentymisajan ja jos se on pienempi kuin aluksen ampumisnopeus,
+        """Funktio, joka hoitaa pelaajan ampumisen. Ottaa nykyisen ajan muistiin. 
+        Miinustaa nykyisestäajasta tämän hetkisen ampumisen viilentymisajan ja jos 
+        se on pienempi kuin aluksen ampumisnopeus,
         ei tapahdu mitään. Jos se on suurempi kuin aluksen ampumisnopeus,
-        uusi ampuminen voidaan suorittaa. Tällöin asetetaan uusi tämän hetkinen ampumisen viilentymisaika
+        uusi ampuminen voidaan suorittaa. Tällöin asetetaan uusi 
+        tämän hetkinen ampumisen viilentymisaika
         ja lisätään luotilistaan uusi luoti muistiin."""
         current_time = pygame.time.get_ticks()
         if current_time - self.current_shot_cooldown > self.shot_cooldown:
@@ -45,5 +47,6 @@ class PlayerShip(Spaceship):
                 score: Lisää tämän määrän pisteitä pelaajan yhteispisteisiin."""
         self.score += score
     def bullet_list_updater(self):
-        """Poistaa luotilistasta kaikki luodit, jotka pääsevät peliruudun ylälaidasta pois näkyvistä."""
+        """Poistaa luotilistasta kaikki luodit, 
+        jotka pääsevät peliruudun ylälaidasta pois näkyvistä."""
         self.bullets = [bullet for bullet in self.bullets if bullet.y_coord > -20]
