@@ -11,7 +11,7 @@ Perusversion pelin toiminnallisuus:
 - Pelaaja voi liikuttaa alusta oikean ja vasemman suunnan lisäksi myös ylös ja alas (tehty)
 - Pisteitä kerätään tuhoamalla vihollisaluksia (tehty)
 - Pelaaja menettää elämäpisteitä, kun pelaajan alukseen osuu vihollisen ammus tai vihollisalus (osittain tehty)
-- Pelaajaa rangaistaan, kun vihollisalus pääsee alalaitaan
+- Pelaajaa rangaistaan, kun vihollisalus pääsee alalaitaan (tehty)
 - Pelin edetessä vihollisaluksia esiintyy koko ajan enemmän (tehty)
 - Peli päättyy, kun pelaaja menettää kaikki elämäpisteet (tehty)
 - Parhaimmat pelaajapisteet tallennetaan tiedostoon
