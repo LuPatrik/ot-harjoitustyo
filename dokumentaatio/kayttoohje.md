@@ -28,7 +28,7 @@ Tässä ovat kaikki näppäimet joita voit pelatessa käyttää:
 
 Liikkuminen: Nuolinäppäimet
 
-Ampuminen: X / Välilyönti
+Ampuminen: X / Välilyönti (Turbon täytyy olla pois päältä, jotta ampuminen on mahdollista!)
 
 Turbo: Vasen shift
 
