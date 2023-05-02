@@ -1,7 +1,12 @@
 import os
 import pygame
 class Bullet:
-    "Vastaa luotien tiedoista"
+    """Vastaa luotien tiedoista.
+        Attributes:
+            x_coord: määrittää aloituskohdan x-akselilla
+            y_coord: määrittää aloituskohdan y-akselilla
+            speed: määrittää luodin kulkunopeuden
+    """
     def __init__(self, x_coord, y_coord, speed):
         """Luokan konstruktori
             Args: 
@@ -23,5 +28,5 @@ class Bullet:
                 screen: Määrittää ruudun, johon luoti piirretään"""
         screen.blit(self.image, (self.x_coord, self.y_coord))
     def update(self):
-        "Siirtää luotia eteenpäin sen nopeuden verran."
+        """Siirtää luotia eteenpäin sen nopeuden verran."""
         self.y_coord -= self.speed

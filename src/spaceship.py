@@ -1,6 +1,11 @@
 class Spaceship:
     """Luokka joka määrittää alusten perustiedot. Pelaajan aluksen ja vihollisalusten 
-    luokat perivät tiedot tältä luokalta."""
+    luokat perivät tiedot tältä luokalta.
+        Attributes:
+                x_coord: Määrittää aluksen sijainnin x akselilla.
+                y_coord: Määrittää aluksen sijainnin y akselilla.
+                speed: Määrittää aluksen nopeuden
+                health: Määrittää aluksen elämäpisteet"""
     def __init__(self, x_coord, y_coord, speed, health):
         """Luokan konstruktori.
             Args:

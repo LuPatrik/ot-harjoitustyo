@@ -13,7 +13,7 @@ class CollisionDetection:
         """Tarkistaa osuvatko pelaaja ja mikään vihollisalus vihollisaluslistasta 
         toisiinsa. Mikäli osuu, tarkistaa onko pelaajan vahinkoimmuniteetti nollassa.
         Jos on, vähentää 10 pistettä pelaajan elämäpisteistä. Jos pelaajan elämäpisteet
-        laskevat nollaan, vähentää lisäelämän pelaajalta ja asettaa elämäpisteet takaisin sataan"""
+        laskevat nollaan, vähentää lisäelämän pelaajalta ja asettaa elämäpisteet takaisin sataan."""
         for enemy in enemy_ship.enemies:
             if pygame.mask.from_surface(player_ship.image).overlap(
                 pygame.mask.from_surface(enemy.image),

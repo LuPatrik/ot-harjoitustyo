@@ -3,7 +3,12 @@ import pygame
 from bullet import Bullet
 from spaceship import Spaceship
 class PlayerShip(Spaceship):
-    """Luokka, joka vastaa pelaajan ohjaamasta aluksesta."""
+    """Luokka, joka vastaa pelaajan ohjaamasta aluksesta.
+            Attributes:
+                x_coord: Määrittää aluksen sijainnin x akselilla.
+                y_coord: Määrittää aluksen sijainnin y akselilla.
+                speed: Määrittää aluksen nopeuden
+                health: Määrittää aluksen elämäpisteet"""
     def __init__(self, x_coord, y_coord, speed, health):
         """Luokan konstruktori. Perii Spaceship luokalta tietoja.
             Args:

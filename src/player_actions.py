@@ -2,7 +2,12 @@ import pygame
 from player_ship import PlayerShip
 class PlayerActions(PlayerShip):
     """Vastaa pelaajan antamien näppäinpainallusten suorittamisesta.
-        Perii PlayerShip luokan tiedot."""
+        Perii PlayerShip luokan tiedot.
+            Attributes:
+                x_coord: Määrittää aluksen sijainnin x-akselilla.
+                y_coord: Määrittää aluksen sijainnin y-akselilla.
+                speed: Määrittää pelaajan nopeuden
+                health: Määrittää pelaajan elämäpisteet"""
     def __init__(self, x_coord, y_coord, speed, health):
         """Luokan konstruktori.
             Args:

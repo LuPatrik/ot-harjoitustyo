@@ -3,7 +3,12 @@ import random
 import pygame
 from spaceship import Spaceship
 class EnemyShip(Spaceship):
-    """Luokka, joka vastaa vihollisaluksista. Perii Spaceship luokan tiedot."""
+    """Luokka, joka vastaa vihollisaluksista. Perii Spaceship luokan tiedot.
+        Attributes:
+            x_coord: Määrittää aluksen sijainnin x-akselilla.
+            y_coord: Määrittää aluksen sijainnin y-akselilla.
+            speed: Määrittää aluksen nopeuden
+            health: Määrittää aluksen elämäpisteet"""
     def __init__(self, x_coord, y_coord, speed, health):
         """Luokan konstruktori.
             Args:
