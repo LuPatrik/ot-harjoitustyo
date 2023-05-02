@@ -14,7 +14,7 @@
 | 25.4  | 5    | ammukset pysähtyvät vihollisiin, vihollisalukset tuhoutuvat, pelaaja saa pisteitä kun vihollisalus tuhotaan ja tasot lisätty |
 | 29.4  | 1    | pelaajan liikkuminen siirretty omaan tiedostoonsa |
 | 2.5   | 3    | luokkia ja funktioita siirretty uusiin tiedostoihin |
+|       | 2    | pelaajalle lisätty lisäelämät, pelaaja menettää lisäelämiä, kun vihollisalus pääsee alalaitaan |
 |       |      | |
 |       |      | |
-|       |      | |
-| yht   | 21.5 | | 
+| yht   | 23.5 | | 
