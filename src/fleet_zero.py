@@ -47,7 +47,6 @@ def main(test_mode = False):
         for enemy in enemy_ship.enemies:
             if enemy.y_coord > game_values.screen_size[1]:
                 player_ship.lives -=1
-                print("enemy through! lives left:", player_ship.lives)
                 enemy_ship.enemies.remove(enemy)
         if len(enemy_ship.enemies) == 0:
             game_values.level +=1

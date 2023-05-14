@@ -22,11 +22,9 @@ class CollisionDetection:
             ):
                 if player_ship.damage_immunity == 0:
                     player_ship.hit(10)
-                    print("hit!!", player_ship.health)
                 if player_ship.health <= 0:
                     player_ship.lives -= 1
                     player_ship.health = 100
-                    print("lives left:", player_ship.lives)
     def bullet_and_enemy_collision(self, player_ship, enemy_ship):
         """Tarkistaa osuuko mikään luodeista mihinkään vihollisista. Jos osuu, vähentää
             vihollisen elämäpisteistä 20 pistettä ja luoti poistetaan. Osumassa sisempi 
@@ -42,12 +40,10 @@ class CollisionDetection:
                      int(enemy.y_coord - bullet.y_coord)))):
                     enemy.hit(20)
                     enemy_hit = True
-                    print("enemy hit!!", enemy.health)
                     player_ship.bullets.remove(bullet)
                 if enemy.health <= 0:
                     enemy_ship.enemies.remove(enemy)
                     player_ship.enemy_destroyed(10)
-                    print("score: ", player_ship.score)
                 if enemy_hit:
                     break
             bullet.update()
