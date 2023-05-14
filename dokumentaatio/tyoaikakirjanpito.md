@@ -17,4 +17,5 @@
 |       | 2    | pelaajalle lisätty lisäelämät, pelaaja menettää lisäelämiä, kun vihollisalus pääsee alalaitaan |
 |       | 1    | pylint korjauksia ja docstring merkintöjä |
 | 14.5  | 3    | HUD, alkuvalikko ja keskeytysvalikko lisätty |
-| yht   | 27.5 | | 
+|       | 2    | Pylint korjauksia |
+| yht:  | 29.5 | | 
