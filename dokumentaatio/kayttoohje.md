@@ -36,3 +36,7 @@ Ampuminen: X / Välilyönti (Turbon täytyy olla pois päältä, jotta ampuminen
 
 Osuminen vihollisaluksiin vahingoittaa sinua. Jos vihollisalus pääsee ohitsesi, menetät lisäelämän. Peli vaikeutuu jatkuvasti, ja vihollisten määrä kasvaa tasojen edetessä.
 Kerää mahdollisimman paljon pisteitä tuhoamalla vihollisaluksia ennen kuin menetät kaikki lisäelämät!
+
+## Keskeytysvalikko
+
+Pelin voi keskeyttää pelisession aikana painamalla ESC näppäintä. Tällöin peli siirtyy keskeytysvalikkoon, josta pelaaja voi valita ```Resume``` jatkaakseen peliään siitä mihin peli jäi tai ```Quit``` poistuakseen pelistä.
