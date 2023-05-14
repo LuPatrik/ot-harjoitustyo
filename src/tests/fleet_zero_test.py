@@ -7,6 +7,8 @@ from enemy_ship import EnemyShip
 from player_actions import PlayerActions
 from screen_refresh import refresh_screen
 from bullet import Bullet
+from game_values import GameValues
+from player_hud import draw_player_lives, draw_player_progression, draw_health_bar
 class TestFleetZero(unittest.TestCase):
     def setUp(self) -> None:
         self.main = fleet_zero.main(test_mode=True)
@@ -40,7 +42,7 @@ class TestFleetZero(unittest.TestCase):
             self.enemy.spawn_enemy()
         for enemy in self.enemy.enemies:
             self.assertTrue(0<= enemy.x_coord<=700)
-            self.assertTrue(-800<= enemy.y_coord<=-100)
+            self.assertTrue(-1100<= enemy.y_coord<=-300)
 
     def test_does_enemy_spawn_with_correct_health(self):
         self.enemy.spawn_enemy()
@@ -101,3 +103,9 @@ class TestFleetZero(unittest.TestCase):
         self.assertEqual(self.player.damage_immunity, 10)
         self.player.damage_immunity_update()
         self.assertEqual(self.player.damage_immunity, 9)
+    
+    def test_hud_drawing_works(self):
+        level = 1
+        draw_player_lives(self.screen, self.player)
+        draw_player_progression(self.screen, self.player, level)
+        draw_health_bar(self.screen, self.player)

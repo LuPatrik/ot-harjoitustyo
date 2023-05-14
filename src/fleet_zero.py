@@ -23,8 +23,8 @@ def main(test_mode = False):
     game_values.level = 1
     enemy_ship = EnemyShip(0, 0, 0, 0)
     player_actions = PlayerActions
-    menu.run_main_menu()
-    menu.running = True
+    if not test_mode:
+        menu.run_main_menu()
     start_new_level(enemy_ship, game_values)
     while running and not test_mode:
         clock.tick(game_values.fps)
