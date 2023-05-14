@@ -39,7 +39,7 @@ class EnemyShip(Spaceship):
         Vihollisealukset luodaan enintään -100 y-akselilla, koska muuten
         ne voivat ilmestyä tyhjästä peliruudulle."""
         x_coord = random.randint(0, 700)
-        y_coord = random.randint(-800, -100)
+        y_coord = random.randint(-1100, -300)
         speed = 1
         health = 100
         new_enemy_ship = EnemyShip(x_coord, y_coord, speed, health)

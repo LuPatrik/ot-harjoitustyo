@@ -26,6 +26,7 @@ class PlayerShip(Spaceship):
         self.score = 0
         self.bullets = []
         self.lives = 3
+        self.max_health = health
     def draw(self, screen):
         """Funktio, joka piirtää pelaaja-aluksen kuvan ruudulle. Piirtää kuvan sinne, minne
             aluksen koordinaatit osoittavat.
