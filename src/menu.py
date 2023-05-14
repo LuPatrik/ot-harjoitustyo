@@ -42,10 +42,6 @@ class Menu():
                 and self.mouse_clicked):
                 self.menu_running = False
                 break
-            #if (self.highscores_text.get_rect(x=screen_size[0]//2-self.highscores_text.get_width()
-            #//2,y=550).collidepoint(self.mouse_pos) and self.mouse_clicked):
-                #continue
-                #print("Me: 9999 points!")
             if (self.quit_text.get_rect(x=screen_size[0]//2-
             self.quit_text.get_width()//2,y=550).collidepoint(self.mouse_pos)
             and self.mouse_clicked):
