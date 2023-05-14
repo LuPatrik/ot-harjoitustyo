@@ -27,3 +27,8 @@
 - Peli aloittaa nyt uuden tason, kun kaikki tason viholliset on joko tuhottu tai päässeet karkuun
 - Koodia on paranneltu pylintin mukaan
 - Koodia on paljon hajautettu eri tiedostoihin
+
+##Viikko 7
+- Pelaajan HUD lisätty, pelaaja näkee elämäpisteensä, lisäelämät, tason ja pisteensä
+- Alkuvalikko ja keskeytysvalikko lisätty, pelin voi keskeyttää painamalla ESC näppäintä kesken pelin
+- Vihollisten spawnaamisrajoja muutettu
