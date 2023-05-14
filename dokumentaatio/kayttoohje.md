@@ -39,4 +39,4 @@ Kerää mahdollisimman paljon pisteitä tuhoamalla vihollisaluksia ennen kuin me
 
 ## Keskeytysvalikko
 
-Pelin voi keskeyttää pelisession aikana painamalla ESC näppäintä. Tällöin peli siirtyy keskeytysvalikkoon, josta pelaaja voi valita ```Resume``` jatkaakseen peliään siitä mihin peli jäi tai ```Quit``` poistuakseen pelistä.
+Pelin voi keskeyttää pelisession aikana painamalla ESC näppäintä. Tällöin peli siirtyy keskeytysvalikkoon, josta voi valita ```Resume``` jatkaakseen peliään siitä mihin peli jäi tai ```Quit``` poistuakseen pelistä.
