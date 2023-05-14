@@ -34,8 +34,6 @@ class Menu():
             screen.fill((0, 0, 0))
             screen.blit(self.title, (screen_size[0] // 2 - self.title.get_width()//2,200))
             screen.blit(self.start_text, (screen_size[0] // 2 - self.start_text.get_width()//2,400))
-            #screen.blit(self.highscores_text, (screen_size[0]
-            #// 2 - self.highscores_text.get_width() // 2, 550))
             screen.blit(self.quit_text,(screen_size[0]//2-self.quit_text.get_width()//2,550))
             if (self.start_text.get_rect(x=screen_size[0] // 2 -
                 self.start_text.get_width() // 2, y=400).collidepoint(self.mouse_pos)
