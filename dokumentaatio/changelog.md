@@ -30,5 +30,6 @@
 
 ##Viikko 7
 - Pelaajan HUD lisätty, pelaaja näkee elämäpisteensä, lisäelämät, tason ja pisteensä
-- Alkuvalikko ja keskeytysvalikko lisätty, pelin voi keskeyttää painamalla ESC näppäintä kesken pelin
+- Alkuvalikko ja keskeytysvalikko lisätty
+- ESC näppäin ei enää sulje peliä, vaan keskeyttää sen, kun peli on aloitettu
 - Vihollisten spawnaamisrajoja muutettu
