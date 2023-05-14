@@ -35,6 +35,8 @@ LShift: Turbo
 
 [arkkitehtuuri.md](https://github.com/MegafoS/ot-harjoitustyo/blob/main/dokumentaatio/arkkitehtuuri.md)
 
+[loppupalautus](https://github.com/MegafoS/ot-harjoitustyo/releases/tag/viikko7)
+
 [release 2](https://github.com/MegafoS/ot-harjoitustyo/releases/tag/viikko6)
 
 [release 1](https://github.com/MegafoS/ot-harjoitustyo/releases/tag/viikko5)
