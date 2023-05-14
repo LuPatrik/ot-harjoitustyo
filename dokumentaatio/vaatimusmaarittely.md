@@ -15,8 +15,8 @@ Perusversion pelin toiminnallisuus:
 - Pelin edetessä vihollisaluksia esiintyy koko ajan enemmän (tehty)
 - Peli päättyy, kun pelaaja menettää kaikki elämäpisteet (tehty)
 - Parhaimmat pelaajapisteet tallennetaan tiedostoon
-- Pelissä on toimiva alkuvalikko, josta voi aloittaa pelin tai katsoa parhaimpia pelaajapisteitä
-- Pelin voi pysäyttää kesken pelisession
+- Pelissä on toimiva alkuvalikko, josta voi aloittaa pelin tai katsoa parhaimpia pelaajapisteitä (osittain tehty)
+- Pelin voi pysäyttää kesken pelisession (tehty)
 
 Jatkokehitysideoita:
 
