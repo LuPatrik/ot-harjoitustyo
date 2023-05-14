@@ -16,5 +16,5 @@
 | 2.5   | 3    | luokkia ja funktioita siirretty uusiin tiedostoihin |
 |       | 2    | pelaajalle lisätty lisäelämät, pelaaja menettää lisäelämiä, kun vihollisalus pääsee alalaitaan |
 |       | 1    | pylint korjauksia ja docstring merkintöjä |
-|       |      | |
-| yht   | 24.5 | | 
+| 14.5  | 3    | HUD, alkuvalikko ja keskeytysvalikko lisätty |
+| yht   | 27.5 | | 
