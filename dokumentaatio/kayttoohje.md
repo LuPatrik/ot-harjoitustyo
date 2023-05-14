@@ -34,7 +34,7 @@ Turbo: Vasen shift
 
 Ampuminen: X / Välilyönti (Turbon täytyy olla pois päältä, jotta ampuminen on mahdollista!)
 
-Osuminen vihollisaluksiin vahingoittaa sinua. Jos vihollisalus pääsee ohitsesi, menetät lisäelämän. Peli vaikeutuu jatkuvasti, ja vihollisten määrä kasvaa tasojen edetessä.
+Osuminen vihollisaluksiin vahingoittaa sinua. Jos vihollisalus pääsee ohitsesi tai menetät kaikki elämäpisteesi, menetät lisäelämän. Peli vaikeutuu jatkuvasti, ja vihollisten määrä kasvaa tasojen edetessä.
 Kerää mahdollisimman paljon pisteitä tuhoamalla vihollisaluksia ennen kuin menetät kaikki lisäelämät!
 
 ## Keskeytysvalikko
