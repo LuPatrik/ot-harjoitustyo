@@ -16,7 +16,9 @@ Käynnistäminen terminaalin kauttaa vaatii myös poetryn. Vaihtoehtoisesti voit
 
 ## Näppäimet:
 Nuolinäppäimet: Liikkuminen
+
 X tai välilyönti: Ampuminen
+
 LShift: Turbo
 
 ## Dokumentaatio
