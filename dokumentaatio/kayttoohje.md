@@ -20,19 +20,19 @@ Käynnistä peli komennolla:
 ```
 poetry run invoke start
 ```
-Peli alkaa suoraan kun se on käynnistetty.
+Peli alkaa kun pelaaja painaa alkuvalikossa ```Start game```
 
 ## Näppäinasetukset
 
 Tässä ovat kaikki näppäimet joita voit pelatessa käyttää:
 
-Pelin lopetus: ESC
+Pelin keskeytys: ESC
 
 Liikkuminen: Nuolinäppäimet
 
-Ampuminen: X / Välilyönti (Turbon täytyy olla pois päältä, jotta ampuminen on mahdollista!)
-
 Turbo: Vasen shift
+
+Ampuminen: X / Välilyönti (Turbon täytyy olla pois päältä, jotta ampuminen on mahdollista!)
 
 Osuminen vihollisaluksiin vahingoittaa sinua. Jos vihollisalus pääsee ohitsesi, menetät lisäelämän. Peli vaikeutuu jatkuvasti, ja vihollisten määrä kasvaa tasojen edetessä.
 Kerää mahdollisimman paljon pisteitä tuhoamalla vihollisaluksia ennen kuin menetät kaikki lisäelämät!
