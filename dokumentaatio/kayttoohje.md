@@ -1,6 +1,6 @@
 # Käyttöohje
 
-Lataa ohjelman viimeisin release täältä: [release 2](https://github.com/MegafoS/ot-harjoitustyo/releases/tag/viikko6)
+Lataa ohjelman viimeisin release täältä: [loppupalautus](https://github.com/MegafoS/ot-harjoitustyo/releases/tag/viikko7)
 
 ## Pelin käynnistäminen
 
