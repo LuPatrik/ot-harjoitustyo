@@ -4,15 +4,10 @@ Lataa ohjelman viimeisin release täältä: [release 2](https://github.com/Megaf
 
 ## Pelin käynnistäminen
 
-Jos sinulla on jo poetry asennettuna, voit ohittaa alla olevat vaiheet ja siirtyä pelin käynnistämiseen.
-
-Asenna pelin riippuvuudet komennoilla:
+Ennen ensimmäistä käynnistämistä, asenna pelin riippuvuudet komennoilla:
 
 ```bash
 poetry install
-```
-```bash
-poetry run invoke build
 ```
 
 Käynnistä peli komennolla:
