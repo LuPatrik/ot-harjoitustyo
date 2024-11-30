@@ -44,15 +44,19 @@ Käynnistää pelin:
 ```bash
 poetry run invoke start
 ```
+
 Suorittaa pelin testit:
 ```bash
 poetry run invoke test
 ```
+
 Muodostaa testikattavuusraportin pelistä:
 ```bash
 poetry run invoke coverage-report
 ```
+
 Testaa ohjelman koodin pylintin mukaan:
 ```bash
 poetry run invoke lint
 ```
+
